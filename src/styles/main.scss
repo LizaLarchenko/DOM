@@ -1,0 +1,22 @@
+$main-color: pink;
+
+body {
+  min-height: 100vh;
+  background: $main-color;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: lightblue;
+  height: 10vh;
+}
+
+main {
+  flex: 1 auto;
+}
+
+footer {
+  background: rgb(205, 171, 239);
+  height: 10vh;
+}
